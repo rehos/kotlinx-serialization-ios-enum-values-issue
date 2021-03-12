@@ -1,5 +1,7 @@
 # KotlinX Serialization Issue
 
+See https://youtrack.jetbrains.com/issue/KT-45435
+
 KotlinX Serialization: Starting with Kotlin 1.4.30 the iOS build fails if an enum class from a library is used in a data class in another project that is marked as @Serializable.
 
 To reproduce just open the ios project in XCode and try to run it.
